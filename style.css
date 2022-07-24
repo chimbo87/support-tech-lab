@@ -1,0 +1,165 @@
+
+
+
+
+
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.4s ease;
+    color: black;
+}
+.navbar{
+    box-shadow: 0 12px 20px grey;
+    background-color: rgb(255, 252, 251);
+}
+section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    z-index: 2;
+    position: relative;
+}
+.imgs{
+    width: 100%;
+    
+  
+}
+.imgs img{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+   
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(15, 11, 11, 0.884);
+    z-index: -1;
+}
+.hero-section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-cover{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#btn{
+    padding: 14px 25px;
+    color: black;
+    font-weight: bold;
+    background: rgb(224, 224, 223);
+    transition: all 0.4s ease;
+}
+#btn:hover{
+    color: rgb(88, 72, 72);
+    transform: translateY(-4px);
+}
+.vedio-btn {
+   
+   font-size: 80px;
+   background-color: transparent;
+   color: antiquewhite;
+   
+}
+.section-intro{
+    margin-bottom: 40px;
+}
+.section-intro .devider{
+    height: 2px;
+    width: 70px;
+    background-color: black;
+    margin: auto;
+}
+.serviceIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.featureIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.featureIcon .icon {
+    background-color: transparent;
+}
+
+ .icon{
+    width: 90px;
+    height: 90px;
+    background-color: rgb(41, 39, 39);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    
+}
+.icon i{
+    font-size: 36px;
+    
+}
+.feature i{
+    color: rgb(34, 31, 29);
+    font-size: 54px;
+}
+.reviews{
+    box-shadow: 0 12px 12px black;
+}
+
+.reviews .person{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-bottom: 1px solid black;
+   padding-bottom: 18px;
+}
+#rewards i{
+    color:rgb(230, 223, 223);
+    font-size: 45px;
+}
+.person img{
+    width: 75px;
+    height: 75px;
+    border-radius: 100px;
+}
+.reviews .stars{
+    color: goldenrod;
+}
+#blogImg img{
+    width: 100%;
+}
+form .form-control{
+    border-color: antiquewhite;
+    border-radius: 0;
+    background-color: transparent;
+}
+form input .form-control{
+    height: 54px;
+}
+form .form-control::placeholder{
+    color: white;
+}
+form .form-control:focus{
+    color: white;
+    border-color: white;
+    background-color: transparent;
+}
+footer{
+    background-color: rgb(102, 72, 64);
+}
+#formBtn{
+    background-color: antiquewhite;
+    color: black;
+    font-weight: bold;
+}
